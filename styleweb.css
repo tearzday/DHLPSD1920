@@ -1,0 +1,631 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+a{
+	text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+header.menu{
+    width: 100%;
+    height: 50px;
+    background-color: #ba0000;
+}
+
+.mainmenu{
+    width: 100%;
+    height: 120px;
+    background-color: #ffcc00;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.mainmenu .logo{
+    display: block;
+    width: 134px;
+    height: 42px;
+    margin: 39px 0px 0px 375px;
+}
+
+.mainmenu .amenu{
+    width: 645px;
+    margin: 55px 0 0 130px;
+
+}
+
+.amenu a{
+    font-size: 14px;
+    color: #ba0000;
+    text-transform: uppercase;
+}
+
+.amenu a:hover{ 
+    font-weight: bold;
+    border-bottom: 4px solid #ba0000;
+}
+
+.search{
+    width: 85px;
+    height: 85px;
+    margin: 30px 0px 0px 193px;
+}
+
+
+.block1{
+    width: 100%;
+    height: 800px;
+    background-image: url(img/bgblock1.png);
+    position: relative;
+}
+
+.block1 h1{
+    top: 170px;
+    left: 375px;
+    font-size: 75px;
+    color: #ffffff;
+    line-height: 80px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    position: absolute;
+}
+
+.block1 h2{
+    top: 410px;
+    left: 375px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #ffcc00;
+    line-height: 30px;
+    word-spacing: 5px;
+    position: absolute;
+}
+
+.block1 .line{
+    top: 374px;
+    left: 375px;
+    width: 100px;
+    height: 4px;
+    background-color: #ffcc00;
+    position: absolute;
+}
+
+.block1 .xz{
+    top: 510px;
+    left: 375px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.block1 p{
+    margin-right: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.point{
+    word-spacing: 25px;
+}
+
+.point span{
+    color: #ffcc00;
+}
+
+.block1 form{
+    top: 571px;
+    left: 375px;
+    position: absolute;
+}
+
+/*Общий стиль(фундамент) для всех кнопок задается тут.Отличающиеся пармаетры менятся по ходу*/
+
+button{
+    height: 50px;
+    width: 150px;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.block1 .button2{
+    width: 186px;
+}
+
+
+button:hover{
+    color: #ba0000;
+    background-color: #ffcc00;
+    border: none;
+    -webkit-box-shadow: 5px 2px 20px #ffcc00;
+            box-shadow: 5px 2px 20px #ffcc00;
+}
+
+
+.block2{
+    width: 100%;
+    height: 732px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.block2 .fontsserv{
+    top: 70px;
+    left: 375px;
+    font-size: 140px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    opacity: 5%;
+    position: absolute;
+}
+
+.block2 h3{
+    top: 125px;
+    left: 375px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #ba0000;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+.block2 .services{
+    width: 1170px;
+    height: 345px;
+    top: 290px;
+    left: 375px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.block2 button{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.services .serv1{
+    margin-right: 30px;
+}
+
+.services .serv2{
+    margin-right: 30px;
+}
+
+.services .serv3{
+    margin-right: 30px;
+}
+
+.services .servp1{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ba0000;
+}
+
+.services .servp2{
+    margin-top: 12px;
+    font-size: 19px;
+}
+
+.block2 .Worldwide{
+    width: 270px;
+    height: 340px;
+    background-color: #ba0000;
+}
+
+.Worldwide .DHI{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.Worldwide .line2{
+    width: 70px;
+    height: 2px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background-color: #ffcc00;
+}
+
+.Worldwide .When{
+    margin-top: 27px;
+    margin-left: 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.block2 select{
+    width: 210px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 30px;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: #9d0000;
+    background-image: url(img/go.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.block3{
+    width: 100%;
+    height: 920px;
+    background-image: url(img/bgblock3.png);
+    background-size: 1920px 700px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.block3 p:first-child{
+    top: 145px;
+    left: 325px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    color: #ffffff;
+    position: absolute;
+}
+
+.block3 .play{
+    top: 245px;
+    left: 910px;
+    position: absolute;
+}
+
+.block3 .ship{
+    width: 1170px;
+    height: 409px;
+    top: 500px;
+    left: 375px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+} 
+
+.block3 .ship1{
+    margin-right: 30px;
+    -webkit-box-shadow: 5px 5px 10px rgb(7, 7, 7 , 0.1);
+            box-shadow: 5px 5px 10px rgb(7, 7, 7 , 0.1);
+}
+
+.block3 .ship2{
+    margin-right: 30px;
+    -webkit-box-shadow: 5px 5px 10px rgb(7, 7, 7 , 0.1);
+            box-shadow: 5px 5px 10px rgb(7, 7, 7 , 0.1);
+}
+
+.block3 .ship3{
+    margin-right: 30px;
+    -webkit-box-shadow: 5px 5px 10px rgb(7, 7, 7 , 0.1);
+            box-shadow: 5px 5px 10px rgb(7, 7, 7 , 0.1);
+}
+
+.ship p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ba0000;
+}
+
+.ship ul{
+    margin-top: 23px;
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    word-spacing: 3px;
+    color: #777777;
+}
+
+.ship li::before {
+    content: '\25ba'; /* Добавляем маркер в шестнадцатеричном формате*/
+    padding-right: 0px; /* Расстояние от маркеров до текста */
+    color: #ffcc00; /* Маркеры красного цвета */
+}
+
+.block4{
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+
+.block4 .form{
+    width: 570px;
+    height: 533px;
+    top: 90px;
+    left: 375px;
+    background-color: #ba0000;
+    position: absolute;
+}
+
+.block4 .button{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.block4 button{
+    width: 285px;
+    height: 50px;
+    font-size: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0%;
+    display: flex;
+    border: none;
+    border-radius: 0%;
+}
+
+.block4 select{
+    width: 490px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 2px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: #9d0000;
+    background-image: url(img/go.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.block4 img{
+    top: 90px;
+    left: 1075px;
+    position: absolute;
+}
+
+.block5{
+    width: 100%;
+    height: 350px;
+    background-color: #ba0000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.block5 .text{
+    width: 750px;
+    height: 150px;
+    margin-top: 95px;
+    margin-left: 375px;
+    color: #ffffff;
+}
+
+.text h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.text p{
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.block5 button{
+    margin-top: 150px;
+    margin-left: 270px;
+    border: none;
+    background-color: #9d0000;
+}
+
+.block5 button:hover{
+    background-color: #ffcc00;
+}
+
+.block6{
+    width: 100%;
+    height: 270px;
+}
+
+.block6 .partners{
+    width: 1170px;
+    height: 130px;
+    padding-top: 70px;
+    margin-left: 345px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.themeforest{
+    width: 274px;
+    height: 132px;
+    margin-left: 30px;
+}
+
+.photodune{
+    width: 274px;
+    height: 132px;
+    margin-left: 30px;
+}
+
+.graphicriver{
+    width: 274px;
+    height: 132px;;
+    margin-left: 30px;
+}
+
+.codecanyon{
+    width: 274px;
+    height: 132px;
+    margin-left: 30px;
+}
+
+.themeforest:hover{
+    border: 2px solid #9d0000;
+}
+
+.photodune:hover{
+    border: 2px solid #9d0000;
+}
+
+.graphicriver:hover{
+    border: 2px solid #9d0000;
+}
+
+.codecanyon:hover{
+    border: 2px solid #9d0000;
+}
+
+.end{
+    width: 100%;
+    height: 310px;
+    border-left: 40px solid #ba0000;
+    border-right: 40px solid #ffcc00;
+    background: url(img/bgfooterleft.png), url(img/bgfooterright.png) ;
+    background-repeat: no-repeat;
+    background-position: left , right  ;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.end .Contactcentr{
+    width: 220px;
+    height: 170px;
+    margin-top: 58px;
+    margin-left: 435px;
+}
+
+.Contactcentr p{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ba0000;
+    margin-bottom: 30px;
+}
+
+.Contactcentr ul{
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 800;
+    word-spacing: 3px;
+    color: #777777;
+}
+
+.Contactcentr li::before {
+    content: '\25ba'; /* Добавляем маркер в шестнадцатеричном формате*/
+    padding-right: 0px; /* Расстояние от маркеров до текста */
+    color: #ba0000; /* Маркеры красного цвета */
+}
+
+.Contactcentr li:hover{
+    color: #ffcc00;
+}
+
+.end .Aboutus{
+    width: 210px;
+    height: 170px;
+    margin-top: 58px;
+    margin-left: 180px;
+}
+
+.Aboutus p{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ba0000;
+    margin-bottom: 30px;
+}
+
+.Aboutus ul{
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 800;
+    word-spacing: 3px;
+    color: #777777;
+}
+
+.Aboutus li::before {
+    content: '\25ba'; /* Добавляем маркер в шестнадцатеричном формате*/
+    padding-right: 0px; /* Расстояние от маркеров до текста */
+    color: #ba0000; /* Маркеры красного цвета */
+}
+
+.Aboutus li:hover{
+    color: #ffcc00;
+}
+
+.end .Socialmedia{
+    width: 170px;
+    height: 170px;
+    margin-top: 58px;
+    margin-left: 90px;
+}
+
+.Socialmedia p{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ba0000;
+    margin-bottom: 30px;
+}
+
+.Socialmedia ul{
+    font-size: 12px;
+    line-height: 23px;
+    font-weight: 800;
+    word-spacing: 3px;
+    color: #777777;
+}
+
+.Socialmedia li::before {
+    content: '\25ba'; /* Добавляем маркер в шестнадцатеричном формате*/
+    padding-right: 0px; /* Расстояние от маркеров до текста */
+    color: #ba0000; /* Маркеры красного цвета */
+}
+
+.Socialmedia li:hover{
+    color: #017edf;
+}
+
